@@ -2,7 +2,7 @@
   "name": "angular2-deploy-server",
   "version": "1.0.0",
   "scripts": {
-    "start": "node dist/prod/index.js"
+    "start": "npm install && node dist/prod/index.js"
   },
   "license": "MIT",
   "dependencies": {
