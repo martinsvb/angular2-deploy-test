@@ -3,7 +3,7 @@ var app = express();
 var path = require('path');
 
 var __projectRoot = __dirname;
-var server_port = 3000;
+var server_port = process.env.PORT || 3000;
 
 app.use(express.static(__projectRoot));
 
